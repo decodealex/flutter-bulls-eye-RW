@@ -1,3 +1,4 @@
+import 'package:bulls_eye/about.dart';
 import 'package:flutter/material.dart';
 import 'textStyles.dart';
 import 'styledButton.dart';
@@ -46,7 +47,10 @@ class ScoreRow extends StatelessWidget {
         ),
         StyledButton(
           icon: Icons.info,
-          onPressed: () {},
+          onPressed: () {
+            Navigator.push(
+                context, MaterialPageRoute(builder: (context) => AboutPage()));
+          },
         ),
       ],
     );
