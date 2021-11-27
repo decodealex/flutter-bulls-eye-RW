@@ -1,0 +1,18 @@
+name: bulls_eye
+description: My First Flutter APp
+
+dependencies: 
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true   
+  assets:
+    - images/
+
+environment:
+  sdk: '>=2.10.0 <3.0.0'
